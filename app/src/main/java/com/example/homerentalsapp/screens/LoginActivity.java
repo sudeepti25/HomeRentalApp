@@ -18,7 +18,7 @@ public class LoginActivity extends AppCompatActivity {
     private TextView createAccount;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_login);
@@ -27,7 +27,7 @@ public class LoginActivity extends AppCompatActivity {
             createAccount.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(LoginActivity.this, SignUpActivity.class) );
+                    startActivity(new Intent(LoginActivity.this, SignUpActivity.class));
                 }
             });
     }
