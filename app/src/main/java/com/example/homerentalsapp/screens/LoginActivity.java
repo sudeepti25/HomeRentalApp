@@ -25,6 +25,7 @@ public class LoginActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_login);
 
+
             createAccount= findViewById(R.id.dont_have_account);
             createAccount.setOnClickListener(new View.OnClickListener() {
                 @Override
